@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Form & Table</title>
+</head>
+<body>
+    <!-- Không được phép quên đặt tên cho trường vì nếu k có tên dl sẽ k được gửi đi -->
+    <form action="https://learn.codegym.vn/" method="get">
+        <fieldset>
+        <legend>My Name</legend>
+        Fist name:
+        <input type="text" name="fist name" value="Bùi">
+        <br> <br>
+        Last name: 
+        <input type="text" name="last name" value="Long">
+        </fieldset>
+    </form>
+    <hr>
+<!-- ================================================================================== -->
+
+<form action="https://learn.codegym.vn/" method="get">
+    <fieldset>
+    <legend>Login</legend>
+    Account:
+    <input type="text" name="Account">
+    <br><br>
+    Password
+    <input type="password" name="Password" id="">
+    </fieldset>
+</form>
+<br><br><hr>
+
+<form action="https://learn.codegym.vn/" method="get">
+    <fieldset>
+    <legend>Hobby</legend>
+    <label> <input type="checkbox" name="Hobby" id=""> Hát </label> <br>
+    <label> <input type="checkbox" name="Hobby" id=""> Học </label> <br>
+    <label> <input type="checkbox" name="Hobby" id=""> Nhảy </label> <br>
+    </fieldset>
+</form> <br><br><hr>
+
+<form action="https://learn.codegym.vn/" method="get">
+    <fieldset>
+    <legend>Hobby</legend>
+    <label> <input type="radio" name="Hobby" id=""> Hát </label> <br>
+    <label> <input type="radio" name="Hobby" id=""> Học </label> <br>
+    <label> <input type="radio" name="Hobby" id=""> Nhảy </label> <br>
+    </fieldset>
+</form> <br><br><hr>
+
+<form action="https://learn.codegym.vn/" method="get">
+    <fieldset>
+    <legend>Hobby</legend>
+    <label> <input type="radio" name="Hobby" id="" checked> Hát </label> <br>
+    <label> <input type="radio" name="Hobby" id=""> Học </label> <br>
+    <label> <input type="radio" name="Hobby" id=""> Nhảy </label> <br>
+    <input type="reset" name="reset" value="Reset">
+    </fieldset>
+</form>
+<br><br><hr>
+<!-- <button>Button</button> -->
+
+<!-- ds drop-down -->
+<select name="Môn học" id="">
+    <option value="toan">Toán</option>
+    <option value="ly">Lý</option>
+    <option value="hoa">Hóa</option>
+    <option value="van">Văn</option>
+    <option value="anh">Anh</option>
+</select>
+<br><br><hr>
+<!-- list --> 
+<!-- sử dụng thuộc tính multiple để chọn nhiều  -->
+<select name="Môn học" id="" multiple>
+    <option value="toan">Toán</option>
+    <option value="ly">Lý</option>
+    <option value="hoa">Hóa</option>
+    <option value="van">Văn</option>
+    <option value="anh">Anh</option>
+</select>
+</body>
+</html>

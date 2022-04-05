@@ -1,0 +1,30 @@
+#header,footer {
+    font-size: larger;
+    color: white;
+    background-color: black;
+    height: 100px;
+    padding: 10px;
+}
+#navbar a{
+    height: 50px;
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+#section{
+    margin: 5px;
+    padding: 10px;
+    background-color: lightgray;
+}
+#article{
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+}
+nav ul{
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin: 5px;
+}

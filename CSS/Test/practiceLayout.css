@@ -1,0 +1,27 @@
+#header {
+    height: 100px;
+    width: 100%;
+    background: goldenrod;
+}
+
+#main {
+    background: yellow;
+    height: 400px;
+    width: 70%;
+    float: left;
+}
+
+#sidebar {
+    background: orange ;
+    height: 400px;
+    width: 30%;
+    float: left;
+    
+}
+
+#footer {
+    background: red;
+    height: 100px;
+    width: 100%;
+    clear:both
+}

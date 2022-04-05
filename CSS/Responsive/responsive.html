@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* #header {
+        height: 100px;
+        width: 100%;
+        background-color: azure;
+    }
+    aside {
+        float: left;
+        height: 500px;
+        width: 30%;
+        background-color: blueviolet;
+    }
+    article {
+        float: left;
+        width: 70%;
+        height: 500px;
+        background-color: aquamarine;
+    }
+    footer {
+        clear: both;
+        height: 100px;
+        width: 100%;
+        background-color: rgb(94, 100, 100);
+    }
+
+    @media screen and (maxwidth:768px) {
+        aside, article{
+            height: 300px;
+            width:100%
+        }
+    } */
+    * {
+        box-sizing: border-box;
+    }
+
+    div {
+        width: 25%;
+        border: 1px slategray solid;
+        float: left;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    @media screen and (max-width:700px) {
+        div {
+            width: 50%;
+        }
+    }
+
+    @media screen and (max-width:500px) {
+        div {
+            width: 100%;
+        }
+    }
+
+    div:hover {
+        background-color: bisque;
+    }
+    div{
+        border: 1px solid wheat;
+        padding: 5px 10px;
+    }
+    div>p{
+        text-align: center;
+    }
+</style>
+
+<body>
+    <h1>Responsive Image Gallery</h1>
+    <h2>Resize the browser window to see the effect</h2>
+    <!-- <header id="header">Đây là header</header>
+    <aside id="aside">Đây là sidebar</aside>
+    <article id="main">Đây là nội dung chính</article>
+    <footer id="footer">đây là footer</footer> -->
+    <div>
+        <img src="https://demo.codegym.vn/web/15/gallery/img_fjords.jpg" alt="">
+        <p>Add a descrition of the image here</p>
+    </div>
+    <div><img src="https://demo.codegym.vn/web/15/gallery/img_forest.jpg" alt=""><img src="" alt=""><img src=""
+            alt=""><img src="" alt="">
+        <p>Add a descrition of the image here</p>
+    </div>
+    <div><img src="https://demo.codegym.vn/web/15/gallery/img_lights.jpg" alt=""><img src="" alt=""><img src=""
+            alt=""><img src="" alt="">
+        <p>Add a descrition of the image here</p>
+    </div>
+    <div><img src="https://demo.codegym.vn/web/15/gallery/img_mountains.jpg" alt=""><img src="" alt=""><img src=""
+            alt=""><img src="" alt="">
+        <p>Add a descrition of the image here</p>
+    </div>
+    
+    <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px
+        wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by
+        side. For screens smaller than 500px, the images will stack vertically (100%).</p>
+
+</body>
+
+</html>

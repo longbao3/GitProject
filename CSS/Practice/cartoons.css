@@ -77,3 +77,6 @@
     text-align: center;
     padding: 23px;
 }
+#content #right{
+    float: left;
+}

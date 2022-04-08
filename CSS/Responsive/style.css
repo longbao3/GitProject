@@ -1,0 +1,33 @@
+#header ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0;
+}
+#header ul li{
+    display: inline;
+    padding: 10px;
+    
+}
+#header {
+    background-color: rgb(48, 45, 45);
+    height: 50px;
+    padding: 10px;
+}
+#header ul li:hover{
+    background-color: black;
+}
+#left {
+    background-color: aliceblue;
+    height: 500px;
+    width: 20%;
+    float: left;
+}
+#left li a{
+    color: aqua;  
+}
+section article{
+    width: 60%;
+    height:500px ;
+    background-color: aqua;
+    margin-top: 0;
+}

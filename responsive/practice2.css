@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+.menu,.footer{
+    height: 50px;
+    background-color: rgb(71, 69, 69);
+    clear: both;
+}
+.menu a{
+    text-align: center;
+    color: white;
+    display:inline-block;
+    text-decoration: none;
+    padding: 14px;
+}
+.menu a:hover{
+    background-color: black;
+}
+.left{
+    float: left;
+    width:20%;
+    /* background-color: aliceblue; */
+}
+.main{
+    padding: 10px;
+    float: left;
+    width: 60%;
+}
+.right{
+    float: right;
+    width: 18%;
+}
+.left a{
+    text-align: center;
+    display: block;
+    height: 20px;
+    margin-top: 50px;
+    padding: 10px;
+}
+.footer{
+    color: beige;
+    text-align: center;
+    padding: 13px;
+}
+.right .ads{
+    display: block;
+    height: 50px;
+    padding-top: 50px; 
+    text-align: center; 
+}
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .menu, .main,.left, .right, .navbar {
+      width: 100%;
+    }
+  }

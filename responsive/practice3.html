@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    div img{
+        height: 200px;
+        width: 300px;
+    }
+    div {
+        border: 1px solid black;
+        float: left;
+        margin: 5px;
+        text-align: center;
+    }
+    .para{
+        padding: 10px;
+    }
+
+    @media only screen and(max-width:500px) {
+        div img{
+            width: 100%;
+        }
+    }
+    @media only screen and(max-width:700px) {
+        div img{
+            width: 50%;
+        }
+    }
+</style>
+<body>
+    <h2>Responsive Image Gallary</h2>
+    <h3>
+        Resize the browser window to see the effect.
+    </h3>
+    <div class="image1">
+        <img src="https://demo.codegym.vn/web/15/gallery/img_fjords.jpg" alt="">
+        <p>Add a description of the image here</p>
+    </div>
+    <div class="image2">
+        <img src="https://demo.codegym.vn/web/15/gallery/img_forest.jpg" alt="">
+        <p>Add a description of the image here</p>
+    </div>
+    <div class="image3">
+        <img src="https://demo.codegym.vn/web/15/gallery/img_lights.jpg" alt="">
+        <p>Add a description of the image here</p>
+    </div>
+    <div class="image4">
+        <img src="https://demo.codegym.vn/web/15/gallery/img_mountains.jpg" alt="">
+        <p>Add a description of the image here</p>
+    </div>
+
+    <br>
+    <br>
+
+    <p class="para">
+        This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px,
+         it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).
+    </p>
+</body>
+</html>

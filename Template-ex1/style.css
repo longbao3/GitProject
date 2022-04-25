@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+*{
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+    background-color: rgb(190, 235, 245);
+}
+:root{
+    --bggradient: linear-gradient(to bottom,#dd2476,#ff512f);
+    --sniglet-font: "siglet",cursive;
+    --Rubik: "Rubik",cursive;
+    --Patua: "Patua One",cursive;
+    --Lobster: "Lobster",cursive;  
+}
+.nav-link{
+    color: black;
+    font-family:var(--Rubik) ;
+}
+.header-text-left h1{
+    font-size: 70px;
+}
+.header-text-right .text{
+    color: rgb(38, 162, 244 , 60%);
+}   
+.header-text-right b{
+    display: block;
+    padding: 4px;
+    width: 250px;
+    text-align: center;
+    background-color: rgb(241, 239, 236);
+    color: rgb(38, 162, 244);
+}
+iframe{
+    border-radius: 10px;
+}
+.des-item h2{
+    color: rgb(38, 162, 244);
+}
+.des-item p{
+    color: rgb(38, 162, 244 , 60%);
+}

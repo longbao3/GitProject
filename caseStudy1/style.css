@@ -6,15 +6,15 @@
 
 /* banner */
 #banner {
-    background: linear-gradient(rgba(0,0,0,0.5),#009688),
+    background: linear-gradient(rgba(0,0,0,0.5),#f8fbfb),
     url("images/banner.png");
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 100vh; 
     
 }
 .logo{
-    width:140px;
+    width:100px;
     position: absolute;
     top:4%;
     left: 10%;
@@ -28,7 +28,7 @@
     font-size: 130px;
 }
 .banner-text{
-    font-size: 20px;
+    font-size: 10px;
     font-style: italic;
 }
 .banner-btn{
@@ -342,4 +342,9 @@ hr{
     font-size: 20px;
     color: #009688;
     margin: 10px;
+}
+@media only screen and(max-width:500px) {
+    #banner{
+        background-color: #000;
+    }
 }

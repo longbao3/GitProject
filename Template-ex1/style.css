@@ -2,7 +2,6 @@
 *{
     box-sizing: border-box;
     font-family: Arial,sans-serif;
-    background-color: rgb(190, 235, 245);
 }
 :root{
     --bggradient: linear-gradient(to bottom,#dd2476,#ff512f);
@@ -10,6 +9,9 @@
     --Rubik: "Rubik",cursive;
     --Patua: "Patua One",cursive;
     --Lobster: "Lobster",cursive;  
+}
+header{
+    background-color: rgb(190, 235, 245);
 }
 .nav-link{
     color: black;
@@ -37,4 +39,42 @@ iframe{
 }
 .des-item p{
     color: rgb(38, 162, 244 , 60%);
+}
+/* features */
+.features{
+    background-color: rgb(190, 235, 245);
+
+}
+.feature-box-item{
+   background-color: rgb(231, 245, 240);
+   margin-left: 35px;
+   border-radius: 30px;
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+
+}
+.feature-box-item img{
+    height: 200px;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.text-left-head{
+    background-color:rgb(190, 235, 245) ;
+    width: 150px;
+    height:40px;
+    border-radius: 10px;
+    padding: 7px;
+}
+.text-right-head{
+    padding-top: 7px;
+    color: rgb(15, 185, 185);
+}
+.btn-outline-primary {
+    border-radius: 30px;
+}
+.fa-star{
+    color: rgb(6, 195, 195);
 }
